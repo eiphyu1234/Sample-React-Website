@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+//import { BrowserRouter, Route, Switch } from "react-router-dom";
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './Components/Style.css';
+import First from './Components/First';
+//import Language from './Components/Language';
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+      <React.StrictMode>
+      <First />
+      </React.StrictMode>,
   document.getElementById('root')
 );
 
